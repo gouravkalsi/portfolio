@@ -145,30 +145,22 @@ export default function About() {
                   <div className="sm:w-[45%]">
                     <div className="flex justify-start items-center my-2">
                       <div className={styles.textGradient}>
-                        <span className="text-4xl">2+</span>
+                        <span className="text-4xl">Experience...</span>
                       </div>
-                      <div className="font-semibold leading-5 ml-2 text-sm italic">
-                        Years
-                        <br className="sm:block hidden" />
-                        <span className="sm:ml-0 ml-1">Experience...</span>
-                      </div>
+                      
                     </div>
                     <div className="text-sm">
-                      Hello there! My name is <span className="text-blue-900 font-semibold">Jasjot Singh</span>. I am a web and app developer, and I'm very passionate and dedicated to my work. With 2+ years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success.
+                      Hello there! My name is <span className="text-blue-900 font-semibold">Gourav Kalsi</span>. I'm a passionate and dedicated web and app developer with professional experience in creating successful projects. With the skills and knowledge I've gained, I can help bring your ideas to life and ensure your project is a success. Let's work together to create something great!
                     </div>
                   </div>
                   <div className="sm:w-[45%]">
                     <div className="flex justify-start items-center my-2">
                       <div className={styles.textGradient}>
-                        <span className="text-4xl">10+</span>
+                        <span className="text-4xl">Projects Devloped...</span>
                       </div>
-                      <div className="font-semibold leading-5 ml-2 text-sm italic">
-                        Projects
-                        <br className="sm:block hidden" />
-                        <span className="sm:ml-0 ml-1">Delivered...</span>
-                      </div>
+                      
                     </div>
-                    <div className="text-sm">I'm a experienced web and app developer, having successfully delivered 10+ web projects and 3 mobile apps. My expertise includes HTML, CSS, JavaScript, React.js, React Native, Node.js, MongoDB, SQL, TypeScript, Tailwind CSS, Material UI, and Bootstrap.</div>
+                    <div className="text-sm">I'm a experienced web and app developer, having successfully devloped  6+ web projects. My expertise includes HTML, CSS, Javascript, React.js, Tailwind CSS, SCSS, Bootstrap, Git, Github, VS Code, Canva, Photoshop,Figma.</div>
                   </div>
                 </div>
                 {/* resume*****************************************   */}
