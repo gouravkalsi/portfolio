@@ -1,0 +1,9 @@
+.textGradient {
+    background: rgb(255, 177, 71);
+    background: linear-gradient(90deg, rgba(255, 177, 71, 1) 0%, rgba(255, 108, 99, 1) 50%, rgba(184, 106, 223, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+}
