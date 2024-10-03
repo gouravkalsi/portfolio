@@ -36,7 +36,7 @@ export default function Works() {
       id: 4,
       name: "Recipe-App",
       img: ProjectImage4,
-      link: "https://vercel.com/gourav-kalsis-projects/recipe",
+      link: "https://recipe-gamma-three.vercel.app/",
     },
   ];
   
