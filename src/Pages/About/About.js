@@ -49,7 +49,7 @@ export default function About() {
           <Loader />
         ) : (
           <>
-            <div className="w-full flex lg3:flex-row flex-col justify-center lg3:gap-20 lg3:px-4 overflow-x-hidden">
+            <div className="w-full flex lg3:flex-row flex-col justify-center items-center lg3:gap-20 lg3:px-4 overflow-x-hidden">
               <div className="flex sm:flex-row flex-col justify-around gap-10 items-center border-b-2 border-gray-500 lg3:border-0 lg3:pb-0 pb-10 ">
                 <div className="w-fit">
                   <div>
@@ -91,7 +91,7 @@ export default function About() {
                     <div className="w-[40px] h-[40px] bg-[#14131308] rounded-full flex justify-center items-center">
                       <FaEnvelope size="17" color="#141313" />
                     </div>
-                    <div className="font-medium">kalsigourav86280@gmail.com</div>
+                    <div className="font-medium">kalsi.gourav2003@gmail.com</div>
                   </div>
                   <div className="flex gap-2 items-center p-2">
                     <div className="w-[40px] h-[40px] bg-[#14131308] rounded-full flex justify-center items-center">
@@ -142,10 +142,10 @@ export default function About() {
                   </div>
                 </div>
                 <div className="flex sm:flex-row flex-col justify-between items-center w-full lg3:py-6 p-10 lg3:border-b-2 border-0 border-gray-500 gap-y-10">
-                  <div className="sm:w-[45%]">
+                  <div className="sm:w-[100%]">
                     <div className="flex justify-start items-center my-2">
                       <div className={styles.textGradient}>
-                        <span className="text-4xl">Experience...</span>
+                        <span className="text-4xl">About Me...</span>
                       </div>
                       
                     </div>
@@ -153,7 +153,7 @@ export default function About() {
                       Hello there! My name is <span className="text-blue-900 font-semibold">Gourav Kalsi</span>. I'm a passionate and dedicated web and app developer with professional experience in creating successful projects. With the skills and knowledge I've gained, I can help bring your ideas to life and ensure your project is a success. Let's work together to create something great!
                     </div>
                   </div>
-                  <div className="sm:w-[45%]">
+                  {/* <div className="sm:w-[45%]">
                     <div className="flex justify-start items-center my-2">
                       <div className={styles.textGradient}>
                         <span className="text-4xl">Projects Devloped...</span>
@@ -161,7 +161,7 @@ export default function About() {
                       
                     </div>
                     <div className="text-sm">I'm a experienced web and app developer, having successfully devloped  6+ web projects. My expertise includes HTML, CSS, Javascript, React.js, Tailwind CSS, SCSS, Bootstrap, Git, Github, VS Code, Canva, Photoshop,Figma.</div>
-                  </div>
+                  </div> */}
                 </div>
                 {/* resume*****************************************   */}
                 <a href={Resume} download="Resume_Gourav_Kalsi" className="lg3:block hidden">
@@ -182,7 +182,7 @@ export default function About() {
               </div>
             </div>
             <Education />
-            <Experience />
+            {/* <Experience /> */}
           </>
         )}
       </div>

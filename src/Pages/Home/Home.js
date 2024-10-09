@@ -63,7 +63,7 @@ export default function Home() {
                   <div className="w-[40px] h-[40px] bg-[#14131308] rounded-full flex justify-center items-center">
                     <FaEnvelope size="17" color="#141313" />
                   </div>
-                  <div className="font-medium">kalsigourav86280@gmail.com</div>
+                  <div className="font-medium">kalsi.gourav2003@gmail.com</div>
                 </div>
               </div>
             </div>

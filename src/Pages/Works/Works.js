@@ -16,31 +16,31 @@ export default function Works() {
   const websites = [
     {
       id: 1,
-      name: "spotify-clone",
+      name: "Spotify Clone",
       img: ProjectImage1,
-      link: "https://spotify-clone-kappa-ivory.vercel.app/",
+      link: "https://kalsi-spotify.vercel.app/",
     },
     {
       id: 2,
-      name: "E-Comerce-site",
+      name: "E-Comerce Landing Page",
       img: ProjectImage2,
-      link: "https://e-comerce-website-gamma.vercel.app/",
+      link: "https://kalsi-mart.vercel.app/",
     },
     {
       id: 3,
-      name: "News-Melody",
+      name: "News Melody",
       img: ProjectImage3,
-      link: "https://news-melody.vercel.app/",
+      link: "https://github.com/gouravkalsi/NEWS-MELODY",
     },
     {
       id: 4,
-      name: "Recipe-App",
+      name: "Kalsi Recipes",
       img: ProjectImage4,
-      link: "https://recipe-gamma-three.vercel.app/",
+      link: "https://kalsi-recipe.vercel.app/",
     },
   ];
-  
- 
+
+
   useEffect(() => {
     if (location.pathname === "/works") {
       setTimeout(() => {
@@ -61,44 +61,18 @@ export default function Works() {
             <div className="textGradient">
               <span className="text-4xl uppercase">WORKS</span>
             </div>
-            <div
-              className="flex justify-between items-center border-b border-[#141313] p-3 my-4 cursor-pointer"
-              onClick={() => {
-                if (opened !== 0) setOpened(0);
-                else setOpened(2);
-              }}
-            >
-              <div className="flex items-center gap-5">
-                <div className="w-[10px] h-[10px] rounded-full bg-black"></div>
-                <div className="font-semibold medium:text-3xl text-2xl">WEBSITES</div>
-              </div>
-              <div>{opened === 0 ? <BiMinus size={30} color="black" /> : <BsPlusLg size={30} color="black" />}</div>
-            </div>
-            <div className={`grid medium:grid-cols-2 ${opened === 0 ? `medium:max-h-[1500px] max-h-[3000px]` : "max-h-0"} overflow-hidden duration-500 ease-in-out`}>
+            <div className={`grid medium:grid-cols-2 gap-y-10 gap-x-10 overflow-hidden duration-500 ease-in-out mt-10`}>
               {websites.map((website) => (
-                <a href={website.link} className="w-full aspect-square p-2 cursor-pointer" key={website.id}>
-                  <div className="w-full h-[350px] border border-black rounded-md overflow-hidden">
-                  <img src={website.img} className="w-full h-[80%] object-cover" alt="" />
-                  <h2 className="font-semibold medium:text-3xl text-2xl">{website.name}</h2>
-
+                <a href={website.link} className="w-full cursor-pointer relative" key={website.id}>
+                  <div className="w-full rounded-md overflow-hidden">
+                    <img src={website.img} className="w-full h-[80%] object-cover" alt="" />
+                    <div className="w-full bg-[#000000bb] absolute bottom-0 left-[50%] translate-x-[-50%] py-2">
+                      <h2 className="font-semibold medium:text-2xl text-xl w-full textGradient">{website.name}</h2>
+                    </div>
                   </div>
                 </a>
               ))}
             </div>
-            <div
-              className="flex justify-between items-center border-b border-[#141313] p-3 my-4 cursor-pointer"
-              onClick={() => {
-                if (opened !== 1) setOpened(1);
-                else setOpened(2);
-              }}
-            >
-              <div className="flex items-center gap-5">
-                <div className="w-[10px] h-[10px] rounded-full bg-black"></div>
-                <div className="font-semibold medium:text-3xl text-2xl">MOBILE APPS</div>
-              </div>
-              <div>{opened === 1 ? <BiMinus size={30} color="black" /> : <BsPlusLg size={30} color="black" />}</div>
-            </div>
-           
           </div>
         )}
       </div>
